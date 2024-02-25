@@ -1,0 +1,14 @@
+@import "../src//styles/normalize.css";
+@import "../src/styles/mixins.scss";
+@import "../src/styles/colors";
+@import "../src/styles/functions";
+@import "../src/styles/sizes";
+@import '../src/components/SearchForm/search-form';
+@import '../src//components//Main/main';
+@import '../src/components/MyMainLocation/location';
+@import '../src/components/Card/card';
+@import '../src//components/Header/_header.scss';
+@import "../src/components/Favourites/_favourites";
+@import "../src/components/ThemeModeCheckbox/theme-mode";
+@import "../src/components/FavouriteCityCard/favourite-city-card";
+@import "../src/components//App/app.scss";  //must appear last

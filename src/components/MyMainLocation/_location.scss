@@ -1,0 +1,77 @@
+.location {
+  width:100%;
+  padding:5px;
+  box-sizing: border-box;
+  @include flex(column, center, center);
+  &__title{
+    font-size: $font-m;
+    &-wrapper {
+      @include flex(row, center, center);
+      width:100%;
+  }
+ }
+
+  &__img {
+    display: block;
+    width:100px;
+    height:auto
+  }
+  &__btn {
+    border:none;
+    padding:5px;
+    width:40px;
+    height: 40px;
+    background:url(../../images/empety-heart.svg) no-repeat center center;
+    transition: background-image 1s;
+    &:hover {
+      cursor:pointer;
+      opacity:0.6; 
+      background: url(../../images/full-heart.svg) no-repeat center center;;
+    }
+    &-wrapper {
+      // padding:5px;
+      // max-width:40px;
+      // max-height: 40px;
+    }
+
+    &_dark {
+      background:url(../../images/white-border-heart.svg) no-repeat center center;
+      &:hover {
+        background:url(../../images/white-full-heart.svg) no-repeat center center;
+      }
+    }
+    &_saved {
+      background:url(../../images/full-heart.svg) no-repeat center center;
+      &_dark {
+        background:url(../../images/white-full-heart.svg) no-repeat center center;
+
+      }
+    }
+
+
+  }
+
+  &__icon {
+    width:40px;
+    padding:0;
+    height: 100%;
+    path {
+      height: 100%;
+    }
+  }
+  &__forecast {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px,150px));
+    width:100%;
+    gap:16px;
+    justify-content: center;
+    box-sizing:border-box;
+  }
+  &__subtitle{
+    text-align: center;
+    padding:10px 0;
+  }
+  &__weather-description {
+    font-size:$font-xs;
+  }
+}

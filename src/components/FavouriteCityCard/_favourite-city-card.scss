@@ -1,0 +1,10 @@
+.favourite-city-card__btn {
+  border:none;
+  background-color: $background-btn-theme-light;
+  padding:5px;
+  color:$font-theme-dark;
+  border-radius: 7px;
+  :hover {
+    background-color: $background-btn-theme-light-hover;
+  }
+}

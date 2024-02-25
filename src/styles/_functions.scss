@@ -1,0 +1,7 @@
+@function set-font-color-function($color) {
+  @if(lightness($color) > 50) {
+    @return $font-theme-light;
+  }@else {
+    @return $font-theme-dark;
+  }
+}

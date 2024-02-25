@@ -1,0 +1,20 @@
+.card {
+  border-radius: 5px;
+  border: black solid 1px;
+  text-align: center;
+  max-width:150px;
+  padding:5px;
+  &__dark {
+    border: $primary-color_dark 1px solid;
+  }
+  
+}
+.cards-container {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(150px,150px));
+  width:100%;
+  gap:16px;
+  justify-content: center;
+  box-sizing:border-box;
+  
+}

@@ -1,0 +1,118 @@
+.search-form {
+  width:60%;
+  margin:auto;
+  position:relative;
+    &__input {
+      width:100%;
+      padding:20px 0;
+      border:none;
+      border-radius:100px;
+      font-size:18px;
+      line-height: 24px;
+      box-sizing: border-box;
+      padding-left:24px;
+      font-family:'Roboto',sans-serif;
+      &::placeholder {
+        font-size:16px;
+        color: #B6BCBF;
+        line-height: 22px;
+      }
+    }
+
+    &__input-wrapper {
+      @include flex(column,center, center);
+      position:relative;
+      // width:100%;
+    }
+
+    &__cities  {
+      position:absolute;
+      top:100%;
+      left:0;
+      height:auto;
+      z-index:2;
+      border-radius: 50px;
+      background-color:transparent;
+    }
+    &__city {
+      width:100%;
+      margin:0;
+      color: $font-theme-light;
+      transition: border-bottom, color 1s;
+      border-bottom: transparent 1px solid;
+
+      &:hover {
+        border-bottom: $background-btn-theme-light-hover solid 0.5px;
+        color:$background-btn-theme-light-hover;
+        cursor: pointer;
+      }
+    }
+
+    &__button {
+      border-radius: 100px;
+      width:168px;
+      border:none;
+      padding:0;
+      color:white;
+      background-color: #2F71E5;
+      box-shadow: 0px 5px 15px rgba(14, 26, 57, 02);
+      position:absolute;
+      top:0;
+      right:0;
+      transition: background-color 1s;
+      cursor: pointer;
+      font-size:18px;
+      line-height: 24px;
+      font-family: 'Roboto',sans-serif;
+      font-weight: 500;
+      padding:20px 0;
+      box-sizing: border-box;
+      &:hover {
+        background-color: #347EFF;
+      }
+  
+      &:active {
+        background-color: #2A65CC
+      }
+      &:disabled {
+        background-color:#E6E8EB;;
+        color:#B6BCBF;
+        cursor:not-allowed;
+      }
+    }
+
+}
+
+@media screen and (max-width:800px) {
+  .search-form{
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width:650px) {
+  .search-form {
+    margin-top:106px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+  &__button {
+    position:static;
+    width:100%;
+    padding:16px 0;
+    margin-top:12px;
+  }
+
+  &__input {
+    padding:16px 10px;
+    &::placeholder {
+      padding:10px;
+    }
+    &::placeholder  {
+      font-size:16px;
+      line-height:22px;
+    }
+  }
+
+}
+}
