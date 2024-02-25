@@ -1,8 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import React from "react";
 import { IStore } from "../utils/Interfaces";
 import appSlice from "../App/appState";
-import { useState } from "react";
 import moon from "../../images/Moon.svg";
 import whiteMoon from "../../images/white-moon.svg";
 import whiteSun from "../../images/white-sun.svg";

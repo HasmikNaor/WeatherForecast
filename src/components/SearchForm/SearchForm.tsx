@@ -50,7 +50,7 @@ const SearchForm = ({ fetchCityWeatherInfo }: SearchFormProps) => {
   };
 
   useEffect(() => {
-    // getAutoCities(locationInput);
+    getAutoCities(locationInput);
   }, [locationInput]);
 
   useEffect(() => {

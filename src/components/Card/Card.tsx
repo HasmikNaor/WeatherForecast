@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { IStore } from "../utils/Interfaces";
 
 interface ICard {
-  title: string; //the city or the day
+  title: string;
   unit: "C" | "F";
   tempDescription: string;
   className: string;
