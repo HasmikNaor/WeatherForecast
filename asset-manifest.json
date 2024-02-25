@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WeatherForecast/static/css/main.1a627f26.css",
+    "main.js": "/WeatherForecast/static/js/main.bcf0d506.js",
+    "static/js/453.908ee238.chunk.js": "/WeatherForecast/static/js/453.908ee238.chunk.js",
+    "static/media/white-sun.svg": "/WeatherForecast/static/media/white-sun.d38a5d3ce9a1fdec99984d985512fd2a.svg",
+    "static/media/white-moon.svg": "/WeatherForecast/static/media/white-moon.4b622f12ae61b58fbd4968f0c0473b58.svg",
+    "static/media/Moon.svg": "/WeatherForecast/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "static/media/empety-heart.svg": "/WeatherForecast/static/media/empety-heart.3826c074a1b94b101e38.svg",
+    "static/media/white-border-heart.svg": "/WeatherForecast/static/media/white-border-heart.95c6b42fe0f36fe279aa.svg",
+    "index.html": "/WeatherForecast/index.html",
+    "static/media/full-heart.svg": "/WeatherForecast/static/media/full-heart.226461bd64622361ffb2.svg",
+    "static/media/white-full-heart.svg": "/WeatherForecast/static/media/white-full-heart.f88e85523c5f5e275ca5.svg",
+    "main.1a627f26.css.map": "/WeatherForecast/static/css/main.1a627f26.css.map",
+    "main.bcf0d506.js.map": "/WeatherForecast/static/js/main.bcf0d506.js.map",
+    "453.908ee238.chunk.js.map": "/WeatherForecast/static/js/453.908ee238.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a627f26.css",
+    "static/js/main.bcf0d506.js"
+  ]
+}
